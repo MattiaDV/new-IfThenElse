@@ -390,6 +390,10 @@ ul li {
     cursor: pointer;
 }
 
+.trustpilot-widget {
+    padding-bottom: 20px;
+}
+
 .rightPartCol {
     width: 100%;
 }
