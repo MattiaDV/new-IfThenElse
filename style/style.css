@@ -463,8 +463,27 @@ ul li {
     cursor: pointer;
 }
 
+.rightPartNav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 20px;
+}
+
+.modeEdit {
+    background: black;
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 1000px) {
-    .rightPartNav {
+    .rightPartNav > table {
         display: none;
     }
 
