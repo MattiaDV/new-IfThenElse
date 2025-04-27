@@ -13,7 +13,7 @@ document.addEventListener("scroll", function() {
 let mode_view = document.getElementById('darkmode');
 let primo = document.querySelectorAll('.navbarPortfolio');
 let secondo = document.querySelectorAll('.contentCollab');
-let terzo = document.querySelectorAll('.accNav');
+let terzo = document.querySelector('.accNav');
 let quarto = document.querySelectorAll('.myName');
 let quinto = document.querySelectorAll('.ScorePart');
 let sesto = document.querySelectorAll('a');
@@ -35,6 +35,10 @@ mode_view.addEventListener('click', function() {
                 }
             } else {
                 a.style.setProperty('color', 'rgb(30, 30, 30)', 'important');
+
+                if (a == terzo) {
+                    a.style.setProperty('border-color', 'rgb(30, 30, 30)', 'important');
+                }
             }
         }        
         document.body.style.background = 'background: linear-gradient(to left, var(--blu), var(--marrone))';
@@ -50,6 +54,10 @@ mode_view.addEventListener('click', function() {
                 }
             } else {
                 a.style.setProperty('color', 'white', 'important');
+
+                if (a == terzo) {
+                    a.style.setProperty('border-color', 'white', 'important');
+                }
             }
         }               
         document.body.style.background = "#171717";
