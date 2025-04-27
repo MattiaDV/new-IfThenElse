@@ -19,7 +19,8 @@ let quinto = document.querySelectorAll('.ScorePart');
 let sesto = document.querySelectorAll('a');
 let settimo = document.querySelectorAll('.servicesPart');
 let ottavo = document.querySelectorAll('.contentProject');
-let all = [primo, secondo, terzo, quarto, quinto, sesto, settimo, ottavo];
+let nono = document.querySelectorAll('.workAs')
+let all = [primo, secondo, terzo, quarto, quinto, sesto, settimo, ottavo, nono];
 let mode = 1;
 
 mode_view.addEventListener('click', function() {
@@ -30,12 +31,12 @@ mode_view.addEventListener('click', function() {
         for (let a of all) {
             if (a instanceof NodeList) {
                 for (let item of a) {
-                    item.style.color = "rgb(30, 30, 30)";
+                    item.style.setProperty('color', 'rgb(30, 30, 30)', 'important');
                 }
             } else {
-                a.style.color = "rgb(30, 30, 30)";
+                a.style.setProperty('color', 'rgb(30, 30, 30)', 'important');
             }
-        } 
+        }        
         document.body.style.background = 'background: linear-gradient(to left, var(--blu), var(--marrone))';
         mode_view.style.border = "1px solid black";
         mode_view.style.background = "none";
@@ -45,12 +46,12 @@ mode_view.addEventListener('click', function() {
         for (let a of all) {
             if (a instanceof NodeList) {
                 for (let item of a) {
-                    item.style.color = "white";
+                    item.style.setProperty('color', 'white', 'important');
                 }
             } else {
-                a.style.color = "white";
+                a.style.setProperty('color', 'white', 'important');
             }
-        }        
+        }               
         document.body.style.background = "#171717";
         mode_view.style.border = "1px solid black";
         mode_view.style.background = "black";
