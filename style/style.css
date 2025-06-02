@@ -630,4 +630,10 @@ ul li {
         justify-content: center;
         align-items: center;
     }
+
+    .cardC > img {
+        max-width: 70%;
+        width: 60%;
+        min-width: 70%;
+    }
 }
