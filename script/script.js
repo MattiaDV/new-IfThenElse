@@ -24,6 +24,7 @@ let all = [primo, secondo, terzo, quarto, quinto, sesto, settimo, ottavo, nono];
 let mode = 1;
 let logo = document.getElementById('logo_base');
 let logo_due = document.getElementById('logo_base_due');
+let stayBlack = document.querySelectorAll('.stayBlack');
 
 mode_view.addEventListener('click', function() {
     mode_view.innerHTML = '';
@@ -65,7 +66,11 @@ mode_view.addEventListener('click', function() {
                     a.style.setProperty('border-color', 'white', 'important');
                 }
             }
-        }               
+        }    
+        for (let a of stayBlack) {
+            console.log(a);
+            a.style.setProperty('color', 'rgb(30, 30, 30)', 'important');
+        }           
         document.body.style.background = "#171717";
         mode_view.style.border = "1px solid black";
         mode_view.style.background = "black";
