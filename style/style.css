@@ -515,9 +515,19 @@ ul li {
     box-shadow: 0px 4px 16px rgba(0.1, 0.1, 0.1, 0.356);
 }
 
+.little {
+    max-width: 60% !important;
+    min-width: 60% !important;
+}
+
 @media screen and (max-width: 1000px) {
     .rightPartNav > table {
         display: none;
+    }
+
+    .little {
+        max-width: 40% !important;
+        min-width: 40% !important;
     }
 
     .logo {
