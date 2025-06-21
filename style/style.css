@@ -520,6 +520,10 @@ ul li {
     min-width: 60% !important;
 }
 
+.nameNav {
+    font-size: 20px;
+}
+
 @media screen and (max-width: 1000px) {
     .rightPartNav > table {
         display: none;
