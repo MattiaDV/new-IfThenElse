@@ -208,31 +208,15 @@
             <div class = "collabo">
                 <div onclick="window.location.href = 'https://www.alpistudio.eu/';" class = "cardC">
                     <img src = "https://www.alpistudio.eu/wp-content/uploads/2023/08/cropped-AlpiStudio-logo.png">
-                    <div class = "definition-a">
-                        <h1 class = "stayBlack">Studio privato</h1>
-                        <p class = "stayBlack">Alessandro & Pietro</p>
-                    </div>
                 </div>
                 <div onclick="window.location.href = 'https://www.panzerasoftwarehouse.it/';" class = "cardC">
                     <img src = "img/panzera.png">
-                    <div class = "definition-a">
-                        <h1 class = "stayBlack">Software house</h1>
-                        <p class = "stayBlack">Alberto Panzera</p>
-                    </div>
                 </div>
                 <div onclick="window.location.href = 'https://www.instagram.com/andrei.bsns/';" class = "cardC">
                     <img src = "img/andrei-pascu.png">
-                    <div class = "definition-a">
-                        <h1 class = "stayBlack">Imprenditore</h1>
-                        <p class = "stayBlack">Andrei Pascu</p>
-                    </div>
                 </div>
-                <div onclick="window.location.href = 'https://dynamicdigital.it/';" class = "cardC">
+                <div onclick="window.location.href = 'https://dynamicdigital.it/';" class = "cardC dynamic">
                     <img class = "little" src = "img/dynamic-digital.png">
-                    <div class = "definition-a">
-                        <h1 class = "stayBlack">Attività</h1>
-                        <p class = "stayBlack">Francesco & Ferdinando</p>
-                    </div>
                 </div>
                 <!-- <div onclick="window.location.href = 'https://dynamicdigital.it/';" class = "cardC">
                     <img src = "img/dynamic-digital.png">
@@ -257,7 +241,23 @@
         </div>
 
         <div class = "googleCalendar">
-            <iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0A49GKsbgSKSKaEtaT8iZpre5lg5hEuOpFGTb4fiPWzvNTrKCMHFc3yETrJySukDr0fPpI0dBo?gv=true" style={{border: 0}} width="100%" height="600" frameborder="0"></iframe>
+            <!-- Google Calendar Appointment Scheduling begin -->
+            <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+            <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+            <script>
+            (function() {
+            var target = document.currentScript;
+            window.addEventListener('load', function() {
+                calendar.schedulingButton.load({
+                url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ0A49GKsbgSKSKaEtaT8iZpre5lg5hEuOpFGTb4fiPWzvNTrKCMHFc3yETrJySukDr0fPpI0dBo?gv=true',
+                color: '#8E24AA',
+                label: 'Fissa un appuntamento',
+                target,
+                });
+            });
+            })();
+            </script>
+            <!-- end Google Calendar Appointment Scheduling -->
         </div>
 
         <!-- TrustBox widget - Review Collector -->
