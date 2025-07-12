@@ -84,6 +84,7 @@ mode_view.addEventListener('click', function() {
     }
 
     blackPulsante();
+    whatsapp();
 })
 
 document.addEventListener("scroll", function() {
@@ -92,6 +93,19 @@ document.addEventListener("scroll", function() {
         text.style.animation = "typing 2s steps(20, end) forwards";
     }
 });
+
+function whatsapp() {
+    let what = document.getElementById('whatsapp');
+    let all_svg = what.querySelectorAll('svg path, svg rect, svg circle, svg polygon, svg g');
+
+    for (let all of all_svg) {
+        if (document.body.classList.contains('Darkmode')) {
+            all.style.setProperty('fill', 'white', 'important');
+        } else {
+            all.style.setProperty('fill', 'rgb(30, 30, 30)', 'important');
+        }
+    }
+}
 
 function blackPulsante() {
     let dodicesimo = document.querySelectorAll('.qxCTlb');
