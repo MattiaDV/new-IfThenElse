@@ -339,10 +339,21 @@ details > summary {
     gap: 15px;
     background: #000;
     border-radius: 26px;
-    color: white;
+    color: rgb(30, 30, 30);
     box-shadow: 0px 4px 16px rgba(0.1, 0.1, 0.1, 0.356);
     width: 400px !important;
     cursor: pointer;
+    
+    width: 100%;
+    text-align: left;
+    padding: 20px;
+    border-radius: 26px;
+    
+    background: rgba(255, 255, 255, 0.05); /* vetro trasparente */
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); /* profondità */
+    backdrop-filter: blur(20px) saturate(160%);
+    -webkit-backdrop-filter: blur(20px) saturate(160%);
+    border: 1px solid rgba(255, 255, 255, 0.18); /* bordo vetroso sottile */
 }
 
 .contCard > .svgRepo {
@@ -367,6 +378,20 @@ details > summary {
     width: 400px !important;
     text-align: left !important;
     cursor: pointer !important;
+    text-align: left !important;
+    padding: 20px !important;
+    border-radius: 26px !important;
+
+    background: rgba(255, 255, 255, 0.05) !important; /* vetro trasparente */
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37) !important; /* profondità */
+    backdrop-filter: blur(20px) saturate(160%) !important;
+    -webkit-backdrop-filter: blur(20px) saturate(160%) !important;
+    border: 1px solid rgba(255, 255, 255, 0.18) !important; /* bordo vetroso sottile */
+    color: rgb(30, 30, 30) !important;
+}
+
+.myNameMin {
+    color: rgb(30, 30, 30);
 }
 
 .workAs {

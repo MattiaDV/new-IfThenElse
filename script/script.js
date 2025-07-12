@@ -20,7 +20,10 @@ let sesto = document.querySelectorAll('a');
 let settimo = document.querySelectorAll('.servicesPart');
 let ottavo = document.querySelectorAll('.contentProject');
 let nono = document.querySelectorAll('.workAs')
-let all = [primo, secondo, terzo, quarto, quinto, sesto, settimo, ottavo, nono];
+let decimo = document.querySelectorAll('details');
+let undicesimo = document.querySelectorAll('.contCard');
+let dodicesimo = document.querySelectorAll('.qxCTlb');
+let all = [primo, secondo, terzo, quarto, quinto, sesto, settimo, ottavo, nono, decimo, undicesimo, dodicesimo];
 let mode = 1;
 let logo = document.getElementById('logo_base');
 let logo_due = document.getElementById('logo_base_due');
@@ -54,6 +57,7 @@ mode_view.addEventListener('click', function() {
         // Dark mode
         logo.src = "../img/Logo-white.png";
         logo_due.src = "../img/Logo-white.png";
+        console.log("QUIIIII: ", dodicesimo)
         for (let a of all) {
             if (a instanceof NodeList) {
                 for (let item of a) {
