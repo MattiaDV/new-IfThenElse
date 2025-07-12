@@ -1,0 +1,11 @@
+{
+    "short_name": "IfThenElse",
+    "name": "IfThenElse, dont fear website",
+    "icons": [{
+        "src": "../img/logo-compatto.png",
+        "type": "image/png",
+        "sizes": "192x192"
+    }],
+    "theme_color": "#fff",
+    "display": "fullscreen"
+}
