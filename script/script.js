@@ -86,6 +86,7 @@ mode_view.addEventListener('click', function() {
 
     blackPulsante();
     whatsapp();
+    projects();
 })
 
 document.addEventListener("scroll", function() {
@@ -94,6 +95,22 @@ document.addEventListener("scroll", function() {
         text.style.animation = "typing 2s steps(20, end) forwards";
     }
 });
+
+function projects() {
+    let loghi = document.querySelectorAll('.personalised');
+
+    for (let lo of loghi) {
+        let all_a = lo.querySelectorAll('svg path, svg rect, svg circle, svg polygon, svg g');
+
+        for (let a of all_a) {
+            if (document.body.classList.contains('Darkmode')) {
+                a.style.setProperty('fill', 'white', 'important');
+            } else {
+                a.style.setProperty('fill', 'rgb(30, 30, 30)', 'important');
+            }
+        }
+    }
+}
 
 function whatsapp() {
     let what = document.getElementById('whatsapp');
