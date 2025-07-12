@@ -391,7 +391,7 @@ details > summary {
 }
 
 .mmGMM {
-    width: calc(100vw - 20px) !important;
+    width: calc(100vw - 35px) !important;
     position: absolute !important;
     top: 10px !important;
     right: 10px !important;
@@ -689,6 +689,15 @@ table {
 
     .bottomSec img {
         width: 100%;
+    }
+
+    .mmGMM {
+        width: calc(100vw - 20px) !important;
+        position: absolute !important;
+        top: 10px !important;
+        right: 10px !important;
+        left: 10px !important;
+        max-height: 95vh !important;
     }
 
     .midPart {
