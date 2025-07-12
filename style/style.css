@@ -319,13 +319,36 @@ details > summary {
     justify-content: flex-start;
     align-items: center;
     gap: 15px;
-    background: none;
-    border: 1px solid white;
+    background: #000;
     border-radius: 26px;
     color: white;
     box-shadow: 0px 4px 16px rgba(0.1, 0.1, 0.1, 0.356);
-    width: 200px;
+    width: 400px !important;
     cursor: pointer;
+}
+
+.contCard > .svgRepo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.act {
+    width: 0% !important;
+}
+
+.contCard > .svgRepo > svg {
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.qxCTlb {
+    font-weight: 300 !important;
+    border-radius: 26px !important;
+    padding: 15px !important;
+    width: 400px !important;
+    text-align: left !important;
+    cursor: pointer !important;
 }
 
 .workAs {
@@ -555,6 +578,14 @@ ul li {
 @media screen and (max-width: 1000px) {
     .rightPartNav > table {
         display: none;
+    }
+
+    .qxCTlb {
+        width: 100% !important;
+    }
+
+    .contactMe {
+        width: 85% !important;
     }
 
     .little {
