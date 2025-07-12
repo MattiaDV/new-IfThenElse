@@ -390,6 +390,15 @@ details > summary {
     font-weight: 600 !important;
 }
 
+.mmGMM {
+    width: calc(100vw - 20px) !important;
+    position: absolute !important;
+    top: 10px !important;
+    right: 10px !important;
+    left: 10px !important;
+    max-height: 95vh !important;
+}
+
 .myNameMin {
     color: rgb(30, 30, 30);
 }
