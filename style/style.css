@@ -141,7 +141,7 @@ body, html {
 
 .description {
     text-align: center;
-    width: 100%;
+    font-size: 14px;
 }
 
 .bottomSec img {
@@ -263,8 +263,30 @@ a:hover {
 }
 
 .servCard .logo svg {
-    padding: 20px;
+    padding: 10px;
     border-radius: 26px;
+    width: 40px !important;
+    height: 40px !important;
+}
+
+details > p {
+    font-size: 12px;
+    font-weight: 300;
+    width: 100%;
+    text-align: left;
+}
+
+details > summary {
+    width: 100%;
+    text-align: left;
+}
+
+details:open > p {
+    margin-top: 10px;
+}
+
+details > summary {
+    cursor: pointer;
 }
 
 .a {
@@ -335,7 +357,10 @@ ul li {
 }
 
 .logo {
-    border-radius: 26px;;
+    border-radius: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contentProject {
