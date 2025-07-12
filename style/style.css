@@ -387,6 +387,7 @@ details > summary {
     -webkit-backdrop-filter: blur(20px) saturate(160%) !important;
     border: 1px solid rgba(255, 255, 255, 0.18) !important; /* bordo vetroso sottile */
     color: rgb(30, 30, 30) !important;
+    font-weight: 600 !important;
 }
 
 .myNameMin {
