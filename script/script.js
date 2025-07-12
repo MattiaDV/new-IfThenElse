@@ -70,7 +70,7 @@ mode_view.addEventListener('click', function() {
         for (let a of stayBlack) {
             console.log(a);
             a.style.setProperty('color', 'rgb(30, 30, 30)', 'important');
-        }           
+        }         
         document.body.style.background = "#171717";
         mode_view.style.border = "1px solid black";
         mode_view.style.background = "black";
