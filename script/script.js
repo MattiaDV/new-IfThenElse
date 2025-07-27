@@ -10,6 +10,19 @@ document.addEventListener("scroll", function() {
     });
 });
 
+document.querySelectorAll('.servCard').forEach(card => {
+    const details = card.querySelector('details');
+    card.addEventListener('click', (e) => {
+        // Evita il toggle se si clicca direttamente su elementi interni interattivi (come summary)
+        if (e.target.tagName.toLowerCase() === 'summary') return;
+        if (details.open) {
+            details.open = false;
+        } else {
+            details.open = true;
+        }
+    });
+});
+
 let mode_view = document.getElementById('darkmode');
 let primo = document.querySelectorAll('.navbarPortfolio');
 let secondo = document.querySelectorAll('.contentCollab');

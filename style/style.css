@@ -4,6 +4,10 @@
     box-sizing: border-box;
     font-family: sans-serif;
     scroll-behavior: smooth;
+    font-family: "Montserrat", sans-serif !important;
+    font-optical-sizing: auto;
+    font-weight: 500 !important;
+    font-style: normal;
 }
 
 :root {
@@ -390,6 +394,14 @@ details > summary {
     font-weight: 600 !important;
 }
 
+.total {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 .mmGMM {
     width: calc(100vw - 35px) !important;
     position: absolute !important;
@@ -407,6 +419,8 @@ details > summary {
     color: rgb(70, 70, 70) !important;
     width: 100%;
     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .ripple {
@@ -573,6 +587,7 @@ ul li {
 
 .stayBlack {
     color: rgb(30, 30, 30) !important;
+    text-align: center;
 }
 
 .projectCard {
