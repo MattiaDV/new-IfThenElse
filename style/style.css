@@ -403,12 +403,11 @@ details > summary {
 }
 
 .mmGMM {
-    width: calc(100vw - 35px) !important;
+    width: calc(90vw - 20px) !important;
     position: absolute !important;
     top: 10px !important;
-    right: 10px !important;
-    left: 10px !important;
-    max-height: 95vh !important;
+    right: 6vh !important;
+    max-height: 90vh !important;
 }
 
 .myNameMin {
@@ -707,12 +706,11 @@ table {
     }
 
     .mmGMM {
-        width: calc(100vw - 20px) !important;
+        width: calc(90vw - 20px) !important;
         position: absolute !important;
-        top: 10px !important;
-        right: 10px !important;
-        left: 10px !important;
-        max-height: 95vh !important;
+        top: 5vh !important;
+        right: 6vw !important;
+        max-height: 90vh !important;
     }
 
     .midPart {
