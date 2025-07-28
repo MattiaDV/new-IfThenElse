@@ -43,6 +43,11 @@ let mode = 1;
 let logo = document.getElementById('logo_base');
 let logo_due = document.getElementById('logo_base_due');
 let stayBlack = document.querySelectorAll('.stayBlack');
+let feed = document.getElementById('feed');
+
+feed.addEventListener('click', function() {
+    window.location.href = 'https://it.trustpilot.com/review/ifthenelse.netlify.app';
+})
 
 mode_view.addEventListener('click', function() {
     mode_view.innerHTML = '';
