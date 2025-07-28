@@ -466,6 +466,7 @@ details > summary {
     border: none;
     box-shadow: 0px 4px 16px rgba(0.1, 0.1, 0.1, 0.356);
     width: 200px;
+    cursor: pointer;
 }
 
 .ripple {
@@ -715,6 +716,10 @@ table {
 
 .nameNav {
     font-size: 20px;
+}
+
+.justify_text {
+    text-align: justify !important;
 }
 
 @media screen and (max-width: 1000px) {
