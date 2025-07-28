@@ -261,6 +261,20 @@ a:hover {
     gap: 20px;
 }
 
+.specials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: -60px !important;
+}
+
+.topper {
+    padding-bottom: 20px !important;
+    padding-top: 40px !important;
+}
+
 .servCard {
     width: calc(100% / 1.4);
     background: white;
