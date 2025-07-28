@@ -152,6 +152,15 @@ function blackPulsante() {
     }
 }
 
+document.addEventListener('DOMContentLoaded', function() {
+    setTimeout(function() {
+        let dodicesimo = document.querySelectorAll('.qxCTlb');
+        console.log(dodicesimo)
+        blackPulsante();
+    }, 500);
+    mode_view.click();
+})
+
 gsap.registerPlugin(ScrollTrigger);
 
 gsap.utils.toArray(".section").forEach(section => {
