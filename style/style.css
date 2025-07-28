@@ -467,6 +467,7 @@ details > summary {
     box-shadow: 0px 4px 16px rgba(0.1, 0.1, 0.1, 0.356);
     width: 200px;
     cursor: pointer;
+    color: #303030 !important;
 }
 
 .ripple {
