@@ -764,6 +764,10 @@ table {
     text-align: justify !important;
 }
 
+b {
+    font-weight: 700 !important;
+}
+
 @media screen and (max-width: 1000px) {
     .rightPartNav > table {
         display: none;
