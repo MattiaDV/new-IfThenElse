@@ -25,16 +25,19 @@ document.querySelectorAll('.servCard').forEach(card => {
 
 document.addEventListener('DOMContentLoaded', () => {
   let pop_up = document.querySelector('.pop-up');
+  let bg = document.querySelector('#background');
   
   window.addEventListener('click', function(e) {
       if (pop_up.style.display !== 'none' && !pop_up.contains(e.target)) {
           pop_up.style.display = "none";
+          bg.style.display = "none";
       }
   });
 
   setTimeout(function() {
     pop_up.style.display = "flex";
-  }, 30000);
+    bg.style.display = "flex";
+  }, 10000);
 });
 
 let mode_view = document.getElementById('darkmode');
